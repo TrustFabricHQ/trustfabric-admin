@@ -27,9 +27,9 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="bg-white rounded-xl shadow-md p-8 w-full max-w-sm">
-        <div className="mb-6">
-          <h1 className="text-2xl font-bold text-gray-900">TrustFabric</h1>
-          <p className="text-sm text-gray-500 mt-1">Lead Management Portal</p>
+        <div className="mb-6 text-center">
+          <img src="/logo.png" alt="TrustFabric" className="h-10 w-auto mx-auto mb-3" />
+          <p className="text-sm text-gray-500">Lead Management Portal</p>
         </div>
         <form onSubmit={handleSubmit} className="space-y-4">
           {error && <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded px-3 py-2">{error}</p>}
